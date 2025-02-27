@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
+import { ProductCardComponent } from './components/product-card/product-card.component';
 
 
 
@@ -8,7 +9,8 @@ import { IonicModule } from '@ionic/angular';
   declarations: [],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    ProductCardComponent
   ]
 })
 export class SharedModule { }

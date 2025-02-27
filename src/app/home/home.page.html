@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-product-card [product]="{
+    title: 'Producto de prueba',
+    price: 19.99,
+    description: 'Este es un producto de prueba',
+    image: 'https://via.placeholder.com/150',
+    rating: { rate: 4.5, count: 120 }
+  }"></app-product-card>
+</ion-content>
